@@ -16,11 +16,12 @@ h1{
 li{
   color: red;
   font-weight: bold;
+  font-size: 220%;
 }
 ul li{
     color: blue;
     font-weight: bold;
-   
+    font-size: 180%;
     z-index: 0;
     display: flex;
     flex-direction: column;
