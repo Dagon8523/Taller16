@@ -12,8 +12,19 @@ h1{
     font-size: 8em;
     margin: 5px;
     padding:10px;
+    
 }
 
+.logo-titulo{
+    position: absolute;
+    top: 24%;
+    width: 10%;
+    right: -10%;
+}
+.contenedor-titulo{
+    position: fixed;
+}
+ 
 div ul li{
     z-index: 0;
     display: flex;
@@ -25,19 +36,19 @@ div ul img{
     background-color: transparent;
     border-radius: 10px;
     width: 70%;
+    position: absolute;
+    left: 85%;
 }
-div ul img:hover{
-    
-}
+
 .desplegable2 div li img{
     width: 40%;
     position: absolute;
     right: -60px;
 }
 .desplegable3 div li img{
-    width: 40%;
+    width: 35%;
     position: absolute;
-    left:-200px;
+    right:-180%;
     top: 30px;
 }
 div ul li span{
@@ -45,30 +56,35 @@ div ul li span{
     font-size: 3em;
 }
 div ul li span:hover{
-    color: rgb(255, 0, 234);
+    color: black;
     transform: scale(1.1,1.1);
   
 }
 nav li span{
-    color: red;
+    color:#FFCA19;
     font-size: 5em;
     font-weight: bold;
 }
 nav li span:hover{
     color:black;
+    
 }
 
 
 
 
 .desplegable{
-    position: relative;
-    top: -45px;
+    position: absolute;
+    top: 25%;
     display: inline-block;
+    left: 3%;
+    
 }
 .desplegable-contenido{
     display: none;
     position: absolute;
+    top: -10%;
+    left: 99%;
     background-color: transparent;
     z-index: 1;
     width: 100%;
@@ -82,15 +98,16 @@ nav li span:hover{
 
 
 .desplegable2{
-    position: relative;
+    position: absolute;
     display: inline-block;
     padding: 20px;
-    top: 130px;
+    top: 40%;
 }
 .desplegable-contenido2{
     display: none;
     position: absolute;
-    top: -160px;
+    top: -10%;
+    left: 100%;
     background-color: transparent;
     z-index: 1;
     width: 180%;
@@ -102,24 +119,28 @@ nav li span:hover{
 
 
 .desplegable3{
-    position: relative;
+    position: absolute;
     display: inline-block;
     padding: 20px;
-    top: 240px;
-    left: 100px;
+    top: 60%;
+    left: 0,5%;
 }
 .desplegable-contenido3{
     display: none;
     flex-direction: column;
     position: absolute;
-    left: -540px;
-    top: -20px;
+    right: -124%;
+    top: -5%;
     background-color: transparent;
     z-index: 1;
-    
+    width: 130%;
 }
 .desplegable3:hover .desplegable-contenido3{
     display: block;
 }
+#productos{
+    position:absolute;
+    top: 1000px;
 
+}
 
